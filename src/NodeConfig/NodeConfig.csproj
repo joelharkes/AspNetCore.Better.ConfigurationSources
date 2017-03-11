@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <AssemblyName>Better.Extensions.Configuration.NodeConfig</AssemblyName>
+    <RootNamespace>Better.Extensions.Configuration.NodeConfig</RootNamespace>
+    <Authors>joelharkes, trancon</Authors>
+    <Company>trancon</Company>
+    <Description>Adds Nodeconfig json environment variable to the configuration appsettings.</Description>
+    <PackageReleaseNotes>1.0.0
+
+Initial release with simple extension method usage.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>

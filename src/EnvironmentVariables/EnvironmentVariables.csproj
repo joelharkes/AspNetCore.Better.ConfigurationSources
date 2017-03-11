@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <RootNamespace>Better.Extensions.Configuration.EnvironmentVariables</RootNamespace>
+    <AssemblyName>Better.Extensions.Configuration.EnvironmentVariables</AssemblyName>
+    <Authors>joelharkes</Authors>
+    <Company>trancon</Company>
+    <Description>Adds a environment variables to appsettings seperated by Underscores</Description>
+    <PackageReleaseNotes>1.0.0
+
+* Initial release setup with extension method for easy usage.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
