@@ -15,6 +15,12 @@
 1.0.0
 
 Initial release with simple extension method usage.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <PackageProjectUrl>https://github.com/joelharkes/AspNetCore.Better.ConfigurationSources</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/joelharkes/AspNetCore.Better.ConfigurationSources</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>configuration, environmentvariables, node, node config</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/joelharkes/AspNetCore.Better.ConfigurationSources/master/icon.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
