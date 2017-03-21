@@ -7,9 +7,16 @@
     <Authors>joelharkes</Authors>
     <Company>trancon</Company>
     <Description>Adds a environment variables to appsettings seperated by Underscores</Description>
-    <PackageReleaseNotes>1.0.0
+    <PackageReleaseNotes>1.0.1
+
+* Update documentation 
+* Pack in Release
+
+1.0.0
 
 * Initial release setup with extension method for easy usage.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

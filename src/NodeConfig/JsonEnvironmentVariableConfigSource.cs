@@ -13,6 +13,11 @@ namespace Better.Extensions.Configuration.NodeConfig
     {
         public string EnvironmentVariable { get; set; }
 
+        /// <summary>
+        /// Processes the json in the environment variable and returns <see cref="IConfigurationProvider"/>
+        /// </summary>
+        /// <param name="builder"></param>
+        /// <returns></returns>
         public IConfigurationProvider Build(IConfigurationBuilder builder)
         {
             var configurationFileParser = new JsonConfigurationFileParser();

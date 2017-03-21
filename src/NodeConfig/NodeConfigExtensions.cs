@@ -2,6 +2,9 @@
 
 namespace Better.Extensions.Configuration.NodeConfig
 {
+    /// <summary>
+    /// Extensions on the <see cref="IConfigurationBuilder"/> for easy access.
+    /// </summary>
     public static class NodeConfigExtensions
     {
         /// <summary>

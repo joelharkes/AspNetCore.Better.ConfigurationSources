@@ -1,6 +1,11 @@
 # Better AspNetCore Configuration sources
 
-This project contains 2 additional configuration sources for AspNetCore.
+This project contains 2 additional configuration sources for AspNetCore:
+
+* Environment variables
+* Json Environment variable (like nodjs config).
+
+The goal of these projects was to ease the installation
 
 ## Environment Variables
 
@@ -10,6 +15,12 @@ Just like you would find docker and kubernetes creating their environment variab
 
 In short: Great for cloud docker development
 
+### example
+
+```
+var builder = new ConfigurationBuilder()
+    .AddOsIndependentEnvironmentVariables();
+```
 
 ## Node Config Environment Variable
 
@@ -18,3 +29,8 @@ json configuration as an environment variable.
 
 This is great for when you have projects half based on nodejs and half on dotnet core. You can now inject configuration
 in the same way
+
+```
+var builder = new ConfigurationBuilder()
+    .AddNodeConfig("NODE_CONFIG"); //parameter is optional, defines env variable used to deserialize.
+```
